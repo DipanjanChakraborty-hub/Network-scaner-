@@ -1,0 +1,8 @@
+scanner:
+  timeout: 2
+  concurrency: 100
+  ports: "1-1024"
+
+output:
+  dir: reports
+  formats: [json, csv]
